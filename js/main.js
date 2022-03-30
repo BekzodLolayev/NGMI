@@ -17,6 +17,17 @@ function showSlides() {
     setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 
+function getFile() {
+    document.getElementById("upfile").click();
+  }
+  function sub(obj) {
+    var file = obj.value;
+    var fileName = file.split("\\");
+    document.getElementById("yourBtn").innerHTML = fileName[fileName.length - 1];
+    document.myForm.submit();
+    event.preventDefault();
+  }
+
 const elDemoModalOpener = document.querySelector('.modal-content-icon');
 const elDemoModal = document.querySelector('#demo-modal');
 elDemoModalOpener.addEventListener('click', function () {

@@ -132,9 +132,19 @@
             <div>
               <textarea class="contact-textarea" name="message" placeholder="Maqola mazmuni"></textarea>
             </div>
-            <div>
-              <button class="contact-button" type="submit">Yuborish</button>
+
+            <div class="upload-a-file-container">
+              <div class="contact-button" id="yourBtn" onclick="getFile()">
+                Fayl yuklash
+              </div>
+              <div style='height: 0px;width: 0px; overflow:hidden;'>
+                <input id="upfile" type="file" value="upload" onchange="sub(this)" />
+              </div>
+              <div>
+                <button class="contact-button" type="submit">Yuborish</button>
+              </div>
             </div>
+            
           </div>
         </form>
 
