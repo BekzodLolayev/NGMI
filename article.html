@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>N-24</title>
+  <title>GMITI</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -27,20 +29,10 @@
       <div class="site-header-top-container container">
         <!-- LOGO -->
         <a class="site-header-logo" href="index.html">
-          <img class="site-header-logo-img" src="/img/logo-purple.svg" alt="N24 logo" width="264" height="28">
+          <img class="site-header-logo-img" src="/img/logo-2.svg" alt="N24 logo" width="64" height="28">
         </a>
 
-        <!-- CURRENCY-RATES -->
-        <ul class="currency-rates">
-          <li class="currency-rates-item">
-            <b class="currency-rates-type">$</b>
-            <span class="currency-rates-value">10650.06</span>
-          </li>
-          <li class="currency-rates-item">
-            <b class="currency-rates-type">P</b>
-            <span class="currency-rates-value">146.08</span>
-          </li>
-        </ul>
+        <h1 class="site-header-logo-title">GIDROMETEOROLOGIYA <br> ILMIY TADQIQOT INSTITUTI</h1>
 
         <!-- GLOBAL-SEARCH-FORM -->
         <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
@@ -56,29 +48,69 @@
         </div>
 
         <!-- SITE-HEADER-AUTH -->
-        <a class="button button-primary" href="#">Войти</a>
+        <a class="button button-primary" href="#">Kirish</a>
       </div>
     </div>
-
-
     <div class="container">
+
       <!-- SITENAV -->
-      <nav class="sitenav">
-        <ul class="sitenav-list">
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Главное</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Интересное</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Экономика</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Политика</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Общество</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Технологии</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Спорт</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Культура</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Происшествия</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Наука</a></li>
-        </ul>
+      <nav>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Institut haqida
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Institut tarixi</a>
+              <a href="#">Vazifalari</a>
+              <a href="#">Rahbariyat</a>
+              <a href="#">Tuzilma</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Bo'limlar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Ilmiy loyihalarni tahrirlash bo'limi</a>
+              <a href="#">Maqolalarni chop etish bo'limi</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Ilmiy jurnallar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Umumiy ma'lumotlar</a>
+              <a href="#">Maqolalarga qo'yiadigan talablar</a>
+              <a href="#">Maqolalar</a>
+              <a href="contact.html">Maqolalar yuborish</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Ilmiy loyihalar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">1-loyiha</a>
+              <a href="#">2-loyiha</a>
+              <a href="#">3-loyiha</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Bog'lanish
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Lorem, ipsum</a>
+              <a href="#">Lorem, ipsum dolor</a>
+            </div>
+          </div>
+        </div>
       </nav>
+
     </div>
-  </header>
+    </header>
 
 
   <main class="main-content main-content-form">
@@ -266,41 +298,60 @@
 
   </main>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-container">
-      <h2 class="footer-title">NAMANGANLIKLAR 24</h2>
-      <div class="footer-item">
-        <p class="footer-text">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ»
-          возможно только с предварительного письменного разрешения редакции.
-        </p>
-        <ul class="footer-middle">
-          <li class="footer-link"><a href="">Информация о сайте</a></li>
-          <li class="footer-link"><a href="">Напишите нам</a></li>
-          <li class="footer-link"><a href="">Реклама</a></li>
-          <li class="footer-link"><a href="">Прислать новость</a></li>
-        </ul>
-        <ul class="footer-right">
-          <li class="footer-link"><a href="">Использование материалов</a></li>
-          <li class="footer-link"><a href="">Темы дня</a></li>
-          <li class="footer-link"><a href="">Наша команда</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-bottom">
-        <a href="">Наши <br> социальные сети</a>
-        <ul class="footer-bottom-link">
-          <li class="footer-social-network"><a href=""><img src="img/facebook.svg" alt="facebook" width="25" height="25"></a></li>
-          <li class="footer-social-network"><a href=""><img class="footer-social-network-instagram" src="img/instagram.svg" alt="instagram" width="25" height="25"></a></li>
-          <li class="footer-social-network"><a href=""><img src="img/telegram.svg" alt="telegram" width="25" height="25"></a>
-          </li>
-          <li class="footer-social-network"><a href=""><img src="img/youtube.svg" alt="youtube" width="25" height="25"></a></li>
-        </ul>
-      </div>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-container">
+    <h2 class="footer-title">GIDROMETEOROLOGIYA <br> ILMIY TADQIQOT INSTITUTI</h2>
+    <div class="footer-item">
+      <p class="footer-text">Манзил:
+        Ўзбекистон, 100052, Тошкент шаҳри, Юнусобод тумани,
+        Бодомзор йўли 1-тор кўча, 72 <br>
+        Тел.: +998 71 235-87-59; +998 90 355-35-07<br>
+        e-mail: is@meteo.uz
+      </p>
+      <ul class="footer-middle">
+        <li class="footer-link"><a href="">Jahon meteorologiya tashkiloti</a></li>
+        <li class="footer-link"><a href="">Iqlim o'zgarihi bo'yicha hukumatlararo panel</a></li>
+        <li class="footer-link"><a href="">Jahon meteorologik markazlari</a></li>
+        <li class="footer-link"><a href="">Xalqaro dasturlar</a></li>
+      </ul>
+      <ul class="footer-right">
+        <li class="footer-link"><a href="">Biz haqimizda</a></li>
+        <li class="footer-link"><a href="">Hamkorlarimiz</a></li>
+        <li class="footer-link"><a href="">Biz bilan bog'lanish</a></li>
+      </ul>
     </div>
 
-  </footer>
+    <div class="footer-bottom">
+      <a href="">Bizning <br> ijtimoiy tarmoqlarimiz</a>
+      <ul class="footer-bottom-link">
+        <li class="footer-social-network"><a href=""><img src="img/facebook.svg" alt="facebook" width="25"
+              height="25"></a></li>
+        <li class="footer-social-network"><a href=""><img class="footer-social-network-instagram"
+              src="img/instagram.svg" alt="instagram" width="25" height="25"></a></li>
+        <li class="footer-social-network"><a href=""><img src="img/telegram.svg" alt="telegram" width="25"
+              height="25"></a>
+        </li>
+        <li class="footer-social-network"><a href=""><img src="img/youtube.svg" alt="youtube" width="25"
+              height="25"></a></li>
+      </ul>
+    </div>
+  </div>
 
+</footer>
+
+  <!-- Modal
+  <section class="modal" id="demo-modal">
+    <div class="madal-content">
+      <img class="modal-content-icon" src="/img/xvector.svg" alt="" width="24" height="24">
+      <div class="madl-dialog">
+        Eng so'nggi maqolalarni o'qib borishni xohlaysizmi?
+      </div>
+      <button class="button-modal button button-orange" type="button">Yoqish</button>
+    </div>
+  </section> -->
+
+<script src="js/main.js"></script>
 </body>
 
 </html>
