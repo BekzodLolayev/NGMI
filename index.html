@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -46,52 +48,95 @@
         </div>
 
         <!-- SITE-HEADER-AUTH -->
-        <a class="button button-primary" href="#">Войти</a>
+        <a class="button button-primary" href="#">Kirish</a>
       </div>
     </div>
-
-
     <div class="container">
-      <!-- SITENAV -->
-      <nav class="sitenav">
-        <ul class="sitenav-list">
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Institut haqida</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Bo'limlar</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Ilmiy jurnallar</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Ilmiy loyihalar</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Bog'lanish</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-   <!-- Site slider -->
-   
-   <div>
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="img/img_nature_wide.jpg" style="width:100%">
-        <div class="text">Caption Text</div>
+      <!-- Site slider -->
+      <div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/img_nature_wide.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/img_snow_wide.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/img_mountains_wide.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
       </div>
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="img/img_snow_wide.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
-      </div>
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="img/img_mountains_wide.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
-      </div>
-    </div>
-    <br>
-    <div style="text-align:center">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-   </div>
+      
+      <!-- SITENAV -->
+      <nav>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Institut haqida
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Institut tarixi</a>
+              <a href="#">Vazifalari</a>
+              <a href="#">Rahbariyat</a>
+              <a href="#">Tuzilma</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Bo'limlar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Ilmiy loyihalarni tahrirlash bo'limi</a>
+              <a href="#">Maqolalarni chop etish bo'limi</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Ilmiy jurnallar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Umumiy ma'lumotlar</a>
+              <a href="#">Maqolalarga qo'yiadigan talablar</a>
+              <a href="#">Maqolalar</a>
+              <a href="#">Maqolala yuborish</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Ilmiy loyihalar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">1-loyiha</a>
+              <a href="#">2-loyiha</a>
+              <a href="#">3-loyiha</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Bog'lanish
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Lorem, ipsum</a>
+              <a href="#">Lorem, ipsum dolor</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </header>
 
   <main class="main-content">
     <div class="container">
@@ -421,10 +466,10 @@
       <h2 class="footer-title">GIDROMETEOROLOGIYA <br> ILMIY TADQIQOT INSTITUTI</h2>
       <div class="footer-item">
         <p class="footer-text">Манзил:
-          Ўзбекистон, 100052, Тошкент шаҳри, Юнусобод тумани, 
+          Ўзбекистон, 100052, Тошкент шаҳри, Юнусобод тумани,
           Бодомзор йўли 1-тор кўча, 72 <br>
           Тел.: +998 71 235-87-59; +998 90 355-35-07<br>
-          e-mail: is@meteo.uz          
+          e-mail: is@meteo.uz
         </p>
         <ul class="footer-middle">
           <li class="footer-link"><a href="">Jahon meteorologiya tashkiloti</a></li>
